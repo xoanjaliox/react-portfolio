@@ -7,19 +7,25 @@
     width: 75%;
 }
 
-.header .row {
+.work-area .row {
     padding: 30px 0px 30px 0px;
 }
 
-h3 {
-    margin: 220px 0px 0px 40px;
+.work-area h3 {
+   margin: 0 auto; 
 }
 
-p {
-    margin: 20px 0px 0px 40px;
-    width: 80%;
+.work-area a {
+    margin: 0 auto; 
+    margin-top: -20px;
+    
 }
 
-.header-area .img-fluid {
+.work-area .img-fluid {
     padding: 45px 0px 30px 0px;
+}
+
+.card {
+    height:250px;
+    width: 50%;
 }

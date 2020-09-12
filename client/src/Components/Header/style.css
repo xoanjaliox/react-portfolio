@@ -8,11 +8,11 @@
 }
 
 
-h3 {
+.header-area h3 {
     margin: 220px 0px 0px 40px;
 }
 
-p {
+.header-area p {
     margin: 20px 0px 0px 40px;
     width: 80%;
 }
