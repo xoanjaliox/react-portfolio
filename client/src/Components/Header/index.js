@@ -14,7 +14,7 @@ const Header = () => {
             <img src="https://www.fillmurray.com/1000/1000" className="img-fluid" alt="Responsive image" /> 
           </div>   
         </div>
-    </div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.work-area { 
+    height: 600px;
+    background-color: lightgrey;
+}
+
+.work-area .container {
+    width: 75%;
+}
+
+.header .row {
+    padding: 30px 0px 30px 0px;
+}
+
+h3 {
+    margin: 220px 0px 0px 40px;
+}
+
+p {
+    margin: 20px 0px 0px 40px;
+    width: 80%;
+}
+
+.header-area .img-fluid {
+    padding: 45px 0px 30px 0px;
+}
