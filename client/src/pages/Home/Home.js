@@ -1,8 +1,10 @@
 import React from "react";
 import Nav from "../../Components/Nav";
 import Header from "../../Components/Header";
+import About from "../../Components/About";
 import Work from "../../Components/Work";
 import Contact from "../../Components/Contact";
+import "./style.css";
 
 const Home = () => {
 
@@ -10,13 +12,12 @@ const Home = () => {
 return (
 
   <>
-    <Nav />
-    <Header />
-    <Work />
-    <Contact />
-  </>
-
-
+  <Nav />
+  <Header />
+  <About />
+  <Work/>
+  <Contact/>
+  </> 
 
 );
 };
