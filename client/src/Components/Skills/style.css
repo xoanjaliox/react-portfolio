@@ -9,7 +9,24 @@
 
 
 .white-box {
-   background-color: #ffffff;
-   height: 400px;
+    width: 100%;
+    background-color: #ffffff;
+    height: 400px;
    
+}
+
+.section-title {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 36px;
+}
+
+.des-dev {
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+h4 {
+    text-align: center;
 }
