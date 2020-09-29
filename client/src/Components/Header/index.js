@@ -13,7 +13,7 @@ const Header = () => {
             </p>
           </div>
           <div className="col-md-6">
-            <img src="https://www.fillmurray.com/1000/1000" className="img-fluid" alt="Responsive image" /> 
+            <img src="https://www.fillmurray.com/1000/1000" className="img-fluid" /> 
           </div>   
         </div>
       </div>

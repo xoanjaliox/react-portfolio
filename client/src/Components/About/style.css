@@ -1,0 +1,33 @@
+.about-area { 
+    height: 600px;
+    background-color: rgba(211, 211, 211, 0.694);
+}
+
+.about-area .container {
+    width: 75%;
+}
+
+.about-area .row {
+    justify-content: center;
+}
+
+.about-area h3 {
+   margin: 0 auto; 
+   padding-top: 40px;
+}
+
+.about-area a {
+    margin: 0 auto; 
+    padding-top: 20px;
+   
+    
+}
+
+.about-area .img-fluid {
+    padding: 45px 0px 30px 0px;
+}
+
+.card {
+    height:250px;
+    width: 50%;
+}

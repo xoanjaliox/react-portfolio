@@ -9,8 +9,11 @@ const Work = () => {
           <h3>Work</h3>
         </div>
         <div className="row">
-          <a href="#!">Link 1</a>
+          <a href="#!">Full Stack</a> 
+          <a href="#!">Design</a> 
         </div>
+
+        
       </div>
     </div>
   );

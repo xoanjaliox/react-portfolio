@@ -5,19 +5,22 @@
 
 .work-area .container {
     width: 75%;
+    background-color: 
 }
 
 .work-area .row {
-    padding: 30px 0px 30px 0px;
+    justify-content: center;
 }
 
 .work-area h3 {
    margin: 0 auto; 
+   padding-top: 40px;
 }
 
 .work-area a {
     margin: 0 auto; 
-    margin-top: -20px;
+    padding-top: 20px;
+   
     
 }
 

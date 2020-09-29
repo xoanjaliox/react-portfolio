@@ -9,10 +9,13 @@ const Nav = () => {
       <a className="nav-link active" href="#!">Home</a>
     </li>
     <li className="nav-item">
-      <a className="nav-link" href="#!">About</a>
+      <a className="nav-link" href="#!">Skills</a>
     </li>
     <li className="nav-item">
       <a className="nav-link" href="#!">Work</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link" href="#!">About</a>
     </li>
     <li className="nav-item">
       <a className="nav-link" href="#!">Contact</a>
