@@ -1,6 +1,7 @@
 .header-area { 
     height: 600px;
     background-color: lightgrey;
+    background-image: "../../public/assets/images/anjalicanyon.jpg";
 }
 
 .header-area .container {
