@@ -8,7 +8,8 @@
 }
 
 .white-box {
-    width: 100%;
+    margin: 0 auto;
+    width: 85%;
     background-color: #ffffff;
     height: 450px;
    
@@ -25,41 +26,26 @@
 }
 
 .design {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
+    
 
 }
 
 .dev {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
+    
 
 }
 
-
-
 .iconsr1 img {
-    width: 70px;
-    height: 60px;
     margin: 0 auto;
-    display: flex;
-    flex-flow: column nowrap;
-    margin-top: 30px;
-    padding-right: 10px;
+    width: 15%;
+
 
 }
 
 .iconsr2 img {
-    width: 70px;
-    height: 60px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    padding-right: 10px;
-    padding-top: 80px;
+    width: 15%;
+   
 }
 
 

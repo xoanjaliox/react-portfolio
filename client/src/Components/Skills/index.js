@@ -6,44 +6,50 @@ import { Col, Row, Container } from "../../Components/Grid";
 const Skills = () => {
     return (
       <>
-      <div className="skills-area">
-        <div className="container white-box">
-          <Col size="md-12" className="section-title">Skills</Col>
+        <div className="skills-area">
+          <div className="white-box"><Container fluid>
 
-          <Row className="des-dev">
-            <Col size="md-6" className="design">
-              <h4>Designer</h4>
-              <Row className="iconsr1">
-                <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-                <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-                <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-                <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-              </Row>
-              <Row className="iconsr2">
-                <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-                <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-                <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-              </Row>
+            <Row>
+              <h3 className="section-title">Skills</h3>
+            </Row>
+
+            <div className="des-dev"><Row>
+              <div className="design"><Col size="md-6">
+                <h4>Designer</h4>
+                <div className="iconsr1"><Row>
+                  <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
+                  <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
+                  <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
+                  <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
+                </Row></div>
+
+                <div className="iconsr2"><Row>
+                  <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
+                  <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
+                </Row></div>
               
-            </Col>
-            <Col size="md-6" className="dev">
-              <h4>Developer</h4>
-              <Row className="iconsr1">
-                <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-                <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-              </Row>
-              <Row className="iconsr2">
-                <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-                <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-              </Row>
-            </Col>
-          </Row>
+              </Col></div>
 
+              <div className="dev"><Col size="md-6">
+                <h4>Developer</h4>
+                <div className="iconsr1"><Row>
+                  <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
+                  <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
+                </Row></div>
 
+                <div className="iconsr2"><Row>
+                  <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
+                  <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
+                </Row></div>
+              
+              </Col></div>
+            
+            </Row></div>
+
+          </Container></div>
         </div>
-      </div>
-    </>
-    
+
+      </>
     );
   }
 
