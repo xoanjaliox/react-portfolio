@@ -41,6 +41,8 @@
 
 
 .iconsr1 img {
+    width: 70px;
+    height: 60px;
     margin: 0 auto;
     display: flex;
     flex-flow: column nowrap;
@@ -50,6 +52,8 @@
 }
 
 .iconsr2 img {
+    width: 70px;
+    height: 60px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Col, Row, Container } from "../../Components/Grid";
 
 
 const Skills = () => {
@@ -7,36 +8,36 @@ const Skills = () => {
       <>
       <div className="skills-area">
         <div className="container white-box">
-          <div className="col-md-12 section-title">Skills</div>
+          <Col size="md-12" className="section-title">Skills</Col>
 
-          <div className="row des-dev">
-            <div className="col-md-6 design">
+          <Row className="des-dev">
+            <Col size="md-6" className="design">
               <h4>Designer</h4>
-              <div className="row iconsr1">
+              <Row className="iconsr1">
                 <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
                 <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
                 <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
                 <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-              </div>
-              <div className="row iconsr2">
+              </Row>
+              <Row className="iconsr2">
                 <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
                 <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
                 <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-              </div>
+              </Row>
               
-            </div>
-            <div className="col-md-6 dev">
+            </Col>
+            <Col size="md-6" className="dev">
               <h4>Developer</h4>
-              <div className="row iconsr1">
+              <Row className="iconsr1">
                 <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
                 <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-              </div>
-              <div className="row iconsr2">
+              </Row>
+              <Row className="iconsr2">
                 <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
                 <img className="img-responsive" src={"assets/images/photoshopicon.png"} />
-              </div>
-            </div>
-          </div>
+              </Row>
+            </Col>
+          </Row>
 
 
         </div>
